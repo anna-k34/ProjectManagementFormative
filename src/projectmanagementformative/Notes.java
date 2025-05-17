@@ -32,4 +32,8 @@ public class Notes {
     public String getContent(){
         return content;
     }
+    
+    public String toString() {
+        return topic + ": \n" + content;
+    }
 }
